@@ -1,0 +1,101 @@
+
+  @font-face {
+    font-family: metropolis;
+    src: url("/assets/font/Metropolis-Regular.otf");
+}
+body {
+  background-color: #E5E5E5;
+  font-family: metropolis;
+}
+.container {
+    width: 450px;
+    height: 330px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    font-weight: 700;
+    color: #db3022;
+    font-size: 28px;
+    line-height: 20px;
+  }
+  .form-warpper .content {
+    font-style: normal;
+    font-weight: 700;
+    color: #222222;
+    font-size: 18px;
+    line-height: 18px;
+  }
+  .form-warpper .select-btn-cst {
+    width: 100%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+
+    width: 150px;
+    padding: 15px;
+    margin-right: -5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border: 1px solid #9b9b9b;
+    background-color: #db3022;
+    filter: drop-shadow(0px 1px 8px rgba(0, 0, 0, 0.05));
+    border-radius: 4px 0px 0px 4px;
+  }
+  .form-warpper .select-btn-slr {
+    width: 100%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #9b9b9b;
+
+    width: 150px;
+    padding: 15px;
+    margin-right: -5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border: 1px solid #9b9b9b;
+    filter: drop-shadow(0px 1px 8px rgba(0, 0, 0, 0.05));
+    border-radius: 4px 0px 0px 4px;
+  }
+  .form-warpper .select-btn :hover {
+    background-color: #db3022;
+  }
+  .form-warpper input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #9b9b9b;
+    filter: drop-shadow(0px 1px 8px rgba(0, 0, 0, 0.05));
+  }
+  .btn-warpper .link {
+    color: #db3022;
+    padding-left: 305px;
+    padding-top: 100px;
+    margin-top: 10px;
+  }
+
+  .btn-warpper .btn {
+    background-color: #db3022;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border-style: none;
+    border-radius: 25px;
+  }
+
+  .btn-warpper .btn :hover {
+    background-color: aliceblue;
+  }

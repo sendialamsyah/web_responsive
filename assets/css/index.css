@@ -1,0 +1,269 @@
+@font-face {
+  font-family: metropolis;
+  src: url("/assets/font/Metropolis-Regular.otf");
+}
+body {
+  background-color: #e5e5e5;
+  font-family: metropolis;
+}
+nav {
+  margin-left: -117px;
+  margin-right: -117px;
+  height: 75px;
+  position: sticky;
+  /* border: 1px solid red; */
+}
+
+.flex-1 {
+  height: 60px;
+  width: 300px;
+  box-sizing: border-box;
+}
+.flex-1 .navbar-brand {
+  padding-left: 125px;
+  border-radius: nullpx;
+  color: #db3022;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 20px;
+  padding-right: 50px;
+}
+.flex-2 {
+  height: 60px;
+  width: 650px;
+  box-sizing: border-box;
+}
+.flex-2 input {
+  height: 40px;
+  width: 507px;
+  background: #ffffff;
+  border: 1px solid #8e8e93;
+  border-radius: 23px;
+  padding: 10px 20px;
+}
+
+.flex-3 {
+  width: 300px;
+  box-sizing: border-box;
+  padding-left: 50px;
+}
+
+.flex-3 a {
+  height: 15.000367164611816px;
+  width: 22px;
+  left: 1px;
+  top: 1px;
+  border-radius: 0px;
+  padding-right: 20px;
+}
+
+.flex-3 .btn-login {
+  height: 36px;
+  width: 100px;
+  left: 0px;
+  top: 0px;
+  border-radius: 25px;
+  margin-right: 10px;
+  background: #db3022;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  border: 1px solid #9b9b9b;
+}
+
+.flex-3 .btn-signup {
+  height: 36px;
+  width: 100px;
+  left: 0px;
+  top: 0px;
+  border-radius: 25px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #9b9b9b;
+  border: 1px solid #9b9b9b;
+}
+.slide {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.slide .box-1 {
+  width: 100px;
+}
+.slide .box-2 {
+  width: 470px;
+}
+.slide .box-3 {
+  width: 470px;
+}
+.slide .box-4 {
+  width: 100px;
+}
+figcaption {
+  margin-top: 50px;
+}
+h4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 34px;
+  color: #222222;
+}
+
+h6 {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #9b9b9b;
+}
+
+.category .image-1 {
+  width: 206px;
+  height: 220px;
+  padding-left: auto;
+  padding-right: auto;
+  padding-top: 35px;
+  text-align: center;
+  background-color: #cc0b04;
+  border-radius: 8px;
+}
+.image-1 p {
+  position: absolute;
+  height: 30px;
+  left: 12.7%;
+  top: 485px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  color: #ffffff;
+}
+.category .image-2 {
+  width: 206px;
+  height: 220px;
+  padding-left: auto;
+  padding-right: auto;
+  padding-top: 35px;
+  text-align: center;
+  background-color: #1C3391;
+  border-radius: 8px;
+}
+
+.image-2 p {
+  position: absolute;
+  height: 30px;
+  left: 30%;
+  top: 485px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.category .image-3 {
+  width: 206px;
+  height: 220px;
+  padding-left: auto;
+  padding-right: auto;
+  padding-top: 35px;
+  text-align: center;
+  background-color: #F67B02;
+  border-radius: 8px;
+}
+
+.image-3 p {
+  position: absolute;
+  height: 30px;
+  left: 47%;
+  top: 485px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  color: #ffffff;
+}
+.category .image-4 {
+  width: 206px;
+  height: 220px;
+  padding-left: auto;
+  padding-right: auto;
+  padding-top: 35px;
+  text-align: center;
+  background-color: #E31F51;
+  border-radius: 8px;
+}
+
+.image-4 p {
+  position: absolute;
+  height: 30px;
+  left: 64%;
+  top: 485px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  color: #ffffff;
+}
+.category .image-5 {
+  width: 206px;
+  height: 220px;
+  padding-left: auto;
+  padding-right: auto;
+  padding-top: 60px;
+  text-align: center;
+  background-color: #57CD9E;
+  border-radius: 8px;
+}
+
+.image-5 p {
+  position: absolute;
+  height: 30px;
+  left: 81%;
+  top: 485px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.new .card {
+  width: 206px;
+  height: 270px;
+}
+.new .card-text {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.new .card-price {
+  margin-top: -10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: #db3022;
+}
+
+.card-description {
+  margin-top: -12px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  color: #9b9b9b;
+}
+.star {
+  margin-top: -7px;
+}
+.star .checked {
+  color: #ffba49;
+}
+
+.star .rating {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 8px;
+  color: #9b9b9b;
+}

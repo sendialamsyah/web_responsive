@@ -1,0 +1,411 @@
+@font-face {
+  font-family: metropolis;
+  src: url("/assets/font/Metropolis-Regular.otf");
+}
+body {
+  background-color: #e5e5e5;
+  font-family: metropolis;
+}
+nav {
+  margin-left: -117px;
+  margin-right: -117px;
+  height: 75px;
+  position: sticky;
+  /* border: 1px solid red; */
+}
+
+.flex-1 {
+  height: 60px;
+  width: 300px;
+  box-sizing: border-box;
+}
+.flex-1 .navbar-brand {
+  padding-left: 125px;
+  border-radius: nullpx;
+  color: #db3022;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 20px;
+  padding-right: 50px;
+}
+.flex-2 {
+  height: 60px;
+  width: 650px;
+  box-sizing: border-box;
+}
+.flex-2 input {
+  height: 40px;
+  width: 507px;
+  background: #ffffff;
+  border: 1px solid #8e8e93;
+  border-radius: 23px;
+  padding: 10px 20px;
+}
+
+.flex-3 {
+  width: 300px;
+  box-sizing: border-box;
+  padding-left: 50px;
+}
+
+.flex-3 a {
+  height: 15.000367164611816px;
+  width: 22px;
+  left: 1px;
+  top: 1px;
+  border-radius: 0px;
+  padding-right: 20px;
+}
+
+.flex-3 .btn-login {
+  height: 36px;
+  width: 100px;
+  left: 0px;
+  top: 0px;
+  border-radius: 25px;
+  margin-right: 10px;
+  background: #db3022;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  border: 1px solid #9b9b9b;
+}
+
+.flex-3 .btn-signup {
+  height: 36px;
+  width: 100px;
+  left: 0px;
+  top: 0px;
+  border-radius: 25px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #9b9b9b;
+  border: 1px solid #9b9b9b;
+}
+
+h6 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #9b9b9b;
+}
+
+.row {
+  column-gap: 50px;
+}
+.row .box-3 {
+  position: absolute;
+  column-gap: 0;
+  top: 500px;
+  /* height: 100px; */
+}
+.box-1 {
+  width: 325px;
+  height: 325px;
+}
+.box-1 img {
+  width: 325px;
+  height: 325px;
+}
+.box-2 {
+  width: 700px;
+  height: 450px;
+}
+
+.box-2 .text-1 {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 28px;
+  color: #222222;
+}
+.box-2 .text-2 {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 16px;
+  color: #9b9b9b;
+}
+
+.star .checked {
+  color: #ffba49;
+}
+
+.star .rating {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 8px;
+  color: #9b9b9b;
+}
+
+.box-2 .text-3 {
+  padding-top: 15px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 16px;
+  color: #9b9b9b;
+}
+.box-2 .text-4 {
+  margin-top: -17px;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 33px;
+  color: #222222;
+}
+.box-2 .text-5 {
+  padding-top: 15px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 16px;
+  color: #222222;
+}
+.box-2 input {
+  color: #222222;
+}
+
+.box-2 .color-black {
+  margin-top: -20px;
+  width: 30px;
+  background-color: #1a1a1a;
+  border-radius: 20px;
+}
+
+.box-2 .color-red {
+  margin-top: -20px;
+  width: 30px;
+  background-color: #d84242;
+  border-radius: 20px;
+}
+
+.box-2 .color-blue {
+  margin-top: -20px;
+  width: 30px;
+  background-color: #4290d8;
+  border-radius: 20px;
+}
+.box-2 .color-green {
+  margin-top: -20px;
+  width: 30px;
+  background-color: #42d86c;
+  border-radius: 20px;
+}
+.box-2 .text-6 {
+  padding-top: 10px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 16px;
+  color: #222222;
+}
+
+.box-2 .elips-size {
+  margin-top: -5px;
+  width: 30px;
+}
+
+.box-2 .rectangle-size {
+  position: relative;
+  right: 26px;
+  bottom: 3px;
+}
+
+.box-2 .text-size {
+  position: relative;
+  left: 40px;
+  bottom: 43px;
+}
+
+.box-2 .shape-size {
+  position: relative;
+  bottom: 85px;
+  left: 70px;
+}
+.box-2 .text-7 {
+  position: relative;
+  left: 140px;
+  bottom: 155px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 16px;
+  color: #222222;
+}
+
+.box-2 .elips-qty {
+  position: relative;
+  width: 30px;
+  bottom: 160px;
+  left: 140px;
+}
+
+.box-2 .rectangle-qty {
+  position: relative;
+  right: 27px;
+  bottom: 160px;
+  left: 114px;
+}
+
+.box-2 .text-qty {
+  position: relative;
+  left: 180px;
+  bottom: 203px;
+}
+
+.box-2 .shape-qty {
+  position: relative;
+  left: 200px;
+  bottom: 245px;
+}
+
+.box-2 .btn-chat {
+  position: relative;
+  bottom: 230px;
+  width: 150px;
+  height: 43px;
+  border: 1.5px solid #222222;
+  border-radius: 24px;
+}
+
+.box-2 .btn-add-bag {
+  position: relative;
+  bottom: 230px;
+  margin-left: 5px;
+  width: 150px;
+  height: 43px;
+  border: 1.5px solid #222222;
+  border-radius: 24px;
+}
+
+.box-2 .btn-buy {
+  position: relative;
+  bottom: 230px;
+  margin-left: 5px;
+  height: 43px;
+  width: 330px;
+  background: #db3022;
+  border-radius: 25px;
+  color: #fff;
+  border: none;
+}
+
+.box-3 .img-2 {
+  position: relative;
+  right: 71px;
+}
+
+.box-3 .img-3 {
+  position: relative;
+  right: 134px;
+}
+
+.box-3 .img-4 {
+  position: relative;
+  right: 197px;
+}
+
+.box-3 .img-5 {
+  position: relative;
+  right: 260px;
+}
+
+article h2 {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 25px;
+  color: #222222;
+}
+
+.information h5 {
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  color: #222222;
+}
+
+.condition h5 {
+  margin-top: 50px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  color: #222222;
+}
+.condition p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: #db3022;
+}
+
+.description h2 {
+  margin-top: 40px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  color: #222222;
+}
+
+.description p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #9b9b9b;
+}
+
+.review h2 {
+  position: relative;
+  bottom: 20px;
+  margin-top: 70px;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 28px;
+  color: #222222;
+}
+
+.rate h1 {
+  position: relative;
+  top: 10px;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 60px;
+  color: #222222;
+}
+
+.rate .maks-rate {
+  position: relative;
+  bottom: 30px;
+  left: 90px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #9b9b9b;
+}
+
+.rate .star {
+  margin-top: -25px;
+}
+
+.recomen-product .row {
+  column-gap: 0px;
+  row-gap: 10px;
+}
+
+.recomen-product h1 {
+  margin-top: 50px;
+  font-weight: 1000;
+  font-size: 34px;
+  line-height: 22px;
+  color: #222222;
+}
+.recomen-product h6 {
+  margin-top: 3px;
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #9b9b9b;
+}

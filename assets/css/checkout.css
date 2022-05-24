@@ -1,0 +1,406 @@
+@font-face {
+  font-family: metropolis;
+  src: url("/assets/font/Metropolis-Regular.otf");
+}
+body {
+  background-color: #e5e5e5;
+  font-family: metropolis;
+}
+nav {
+  margin-left: -125px;
+  margin-right: -125px;
+  height: 75px;
+  position: sticky;
+  /* border: 1px solid red; */
+}
+
+.flex-1 {
+  height: 60px;
+  width: 300px;
+  box-sizing: border-box;
+}
+.flex-1 .navbar-brand {
+  position: relative;
+  left: 110px;
+  border-radius: nullpx;
+  color: #db3022;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 20px;
+  padding-right: 50px;
+}
+.flex-2 {
+  height: 60px;
+  width: 650px;
+  box-sizing: border-box;
+}
+.flex-2 input {
+  height: 40px;
+  width: 507px;
+  background: #ffffff;
+  border: 1px solid #8e8e93;
+  border-radius: 23px;
+  padding: 10px 20px;
+}
+
+.flex-3 {
+  width: 300px;
+  box-sizing: border-box;
+  padding-left: 50px;
+}
+
+.flex-3 a {
+  height: 15.000367164611816px;
+  width: 22px;
+  left: 1px;
+  top: 1px;
+  border-radius: 0px;
+  padding-right: 20px;
+}
+.filter {
+  position: relative;
+  right: 31px;
+}
+.search-field {
+  position: relative;
+  left: 5px;
+}
+
+.cart-1 {
+  position: relative;
+  top: 5px;
+}
+.cart-2 {
+  position: relative;
+  top: 17px;
+  right: 23px;
+}
+.cart-3 {
+  position: relative;
+  top: 17px;
+  right: 21px;
+}
+.bell-1 {
+  position: relative;
+  left: 30px;
+  top: 5px;
+}
+.bell-2 {
+  position: relative;
+  top: 17px;
+  left: 12px;
+}
+
+.mail-1 {
+  position: relative;
+  top: 5px;
+  left: 65px;
+}
+.mail-2 {
+  width: 16px;
+  position: relative;
+  top: 3px;
+  left: 40px;
+}
+.nav-profile {
+  border-radius: 50%;
+  position: relative;
+  top: 5px;
+  left: 90px;
+}
+h4 {
+
+  padding-top: 50px;
+  padding-bottom: 30px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 34px;
+  color: #222222;
+}
+h6 {
+position: absolute;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  color: #222222;
+}
+aside {
+  padding-top: 200px;
+  width: 30%;
+  height: 200px;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
+}
+
+.row {
+  gap: 40px;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+section .items {
+  margin-top: -75px;
+  width: 60%;
+}
+
+section .box-1 {
+    margin-top: 30px;
+    padding: 30px;
+  width: 720px;
+  height: 190px;
+  left: 150px;
+  top: 214px;
+  border-radius: 4px;
+  background: #ffffff;
+  box-shadow: 0px 0px 8px rgba(115, 115, 115, 0.25);
+}
+.box-1 h3 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  color: #222222;
+}
+.box-1 p {
+    margin-top: 20px;
+    font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: #222222;
+}
+
+.box-1 button {
+    width: 210px;
+    height: 36px;
+    border: 1px solid #9B9B9B;
+border-radius: 24px;
+color: #9B9B9B;
+}
+section .box-2 {
+  width: 370px;
+  height: 240px;
+  left: 920px;
+  top: 214px;
+  border-radius: 4px;
+  background: #ffffff;
+  box-shadow: 0px 0px 8px rgba(115, 115, 115, 0.25);
+  padding-left: 25px;
+}
+
+section .box-3 {
+  position: absolute;
+  width: 720px;
+  height: 126px;
+  left: 105px;
+  top: 430px;
+  background: #ffffff;
+  box-shadow: 0px 0px 8px rgba(115, 115, 115, 0.25);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+section .box-4 {
+  position: absolute;
+  width: 720px;
+  height: 126px;
+  left: 105px;
+  top: 570px;
+
+  background: #ffffff;
+  box-shadow: 0px 0px 8px rgba(115, 115, 115, 0.25);
+  border-radius: 4px;
+}
+
+.box-1 .check {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top: 188px;
+  left: 140px;
+  background-color: #db3022;
+  border-radius: 4px;
+}
+.box-1 .text-1 {
+  position: absolute;
+  top: 190px;
+  left: 175px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: #222222;
+}
+.box-1 .text-2 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: #8e8e93;
+}
+.box-1 .text-3 {
+  position: absolute;
+  left: 580px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: #db3022;
+}
+.box-2 .text-1 {
+  position: absolute;
+  top: 215px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  color: #222222;
+}
+
+.box-2 .text-2 {
+  position: absolute;
+  top: 250px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: #9b9b9b;
+}
+.box-2 .text-3 {
+  position: relative;
+  left: 215px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  color: #222222;
+}
+.box-2 .text-4 {
+    position: absolute;
+    top: 280px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #9b9b9b;
+  }
+  .box-2 .text-5 {
+    position: relative;
+    left: 210px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    color: #222222;
+  }
+  .box-2 .text-6 {
+    position: absolute;
+    top: 335px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    color: #222222;
+  }
+  .box-2 .text-7 {
+    position: relative;
+    left: 115px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    color: #222222;
+  }
+
+  .box-2 hr {
+      position: relative;
+      top: 100px;
+  }
+.box-2 .btn {
+  position: absolute;
+  top: 380px;
+  width: 320px;
+  height: 36px;
+  border-radius: 25px;
+  background-color: #db3022;
+  color: #ffffff;
+}
+
+.box-3 .check {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  top: 30px;
+  left: 25px;
+  background-color: #db3022;
+  border-radius: 4px;
+}
+
+.box-3 img {
+  position: relative;
+  top: 30px;
+  left: 40px;
+}
+
+.box-3 .text-1 {
+  position: relative;
+  top: -30px;
+  left: 150px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.box-3 .text-2 {
+  position: relative;
+  top: -40px;
+  left: 150px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  color: #9b9b9b;
+}
+
+.box-3 .text-3 {
+  position: relative;
+  left: 300px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  color: #222222;
+}
+
+.box-4 .check {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  top: 30px;
+  left: 25px;
+  background-color: #db3022;
+  border-radius: 4px;
+}
+.box-4 img {
+  position: relative;
+  top: 30px;
+  left: 40px;
+}
+.box-4 .text-1 {
+  position: relative;
+  top: -30px;
+  left: 150px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.box-4 .text-2 {
+  position: relative;
+  top: -40px;
+  left: 150px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  color: #9b9b9b;
+}
+
+.box-4 .text-3 {
+  position: relative;
+  left: 340px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  color: #222222;
+}
